@@ -21,7 +21,6 @@ server.get('/', (req, res) => {
 
 server.get('/goat/:id?', (req, res) => {
   const id = Number(req.params.id)
-  console.log(id)
   fs.readFile('./goat.json', 'utf-8', (err, data) => {
     if (err) return res.status(500).send(err.message)
     const parsedData = JSON.parse(data)
