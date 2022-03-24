@@ -5,7 +5,6 @@ const fs = require('fs')
 
 const server = express()
 
-
 // Server configuration
 server.use(express.static('public'))
 server.use(express.urlencoded({ extended: false }))
@@ -21,7 +20,7 @@ server.get('/', (req, res) => {
 })
 
 server.get('/goat/1', (req, res) => {
-  fs.readFile(./goat.json, 'utf-8', (err, data) => {
+  fs.readFile('./goat.json', 'utf-8', (err, data) => {
     if (err) return res.status(500).send(err.message)
     res.render('game', data)
   })
