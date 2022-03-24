@@ -5,6 +5,30 @@
     "name": "Kinder",
     "location": "North America",
     "image": "/images/Kinder_Goat.jpg"
-    }
+    },
+    {
+    "id": 2,
+    "name": "Alpine",
+    "location": "Europe",
+    "image": "/images/Kinder_Goat.jpg"
+    },
+    {
+    "id": 3,
+    "name": "Cashmere",
+    "location": "Australia",
+    "image": "/images/Kinder_Goat.jpg"
+    },
+    {
+    "id": 4,
+    "name": "Boer",
+    "location": "Africa",
+    "image": "/images/Kinder_Goat.jpg"
+    },
+    {
+    "id": 5,
+    "name": "Jamnapari",
+    "location": "Asia",
+    "image": "/images/Kinder_Goat.jpg"
+    }  
   ]
 }
