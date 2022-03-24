@@ -1,14 +1,16 @@
 {
   "dependencies": {
     "express": "^4.17.3",
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.15"
   },
   "name": "geo-goatr",
   "description": "Sporty spice goes Goat hunting",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
