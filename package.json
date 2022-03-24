@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "express": "^4.17.3",
     "handlebars": "^4.7.7"
-  }
+  },
+  "name": "geo-goatr",
+  "description": "Sporty spice goes Goat hunting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piwakawaka-2022/geo-goatr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwakawaka-2022/geo-goatr/issues"
+  },
+  "homepage": "https://github.com/piwakawaka-2022/geo-goatr#readme"
 }
