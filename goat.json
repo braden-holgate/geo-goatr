@@ -2,6 +2,7 @@
   "goats": [
     {
     "id": 1,
+    "name": "Kinder",
     "location": "North America",
     "image": "/images/Kinder_Goat.jpg"
     }
