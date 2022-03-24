@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  background: rgb(0, 0, 0);
+  color: whitesmoke;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 5vw;
+  text-align: center;
+  list-style-type: none;
+}
