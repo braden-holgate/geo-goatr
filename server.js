@@ -22,7 +22,7 @@ server.get('/', (req, res) => {
 server.get('/goat/1', (req, res) => {
   fs.readFile('./goat.json', 'utf-8', (err, data) => {
     if (err) return res.status(500).send(err.message)
-    res.render('game', data)
+    res.render('game', data.goats)
   })
 })
 
