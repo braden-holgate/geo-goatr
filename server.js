@@ -61,15 +61,15 @@ server.post('/goat/:id', (req, res) => {
   })
 })
 
-// server.post('/goat/:id', (req, res) => {
-//   const id = Number(req.params.id) + 1
-//   console.log(id)
-//   // fs.readFile('./goat.json', 'utf-8', (err, data) => {
-//   //   if (err) return res.status(500).send(err.message)
-//   //   const parsedData = JSON.parse(data)
-//   //   const theGoat = parsedData.goats.find((goat) => goat.id === id)
-//   res.redirect('/goat/' + id)
-//   // })
-// })
+server.post('/goat/:id', (req, res) => {
+  const id = Number(req.params.id) + 1
+  console.log(id)
+  // fs.readFile('./goat.json', 'utf-8', (err, data) => {
+  //   if (err) return res.status(500).send(err.message)
+  //   const parsedData = JSON.parse(data)
+  //   const theGoat = parsedData.goats.find((goat) => goat.id === id)
+  res.redirect('/goat/' + id)
+  // })
+})
 
 module.exports = server
