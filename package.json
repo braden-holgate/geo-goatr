@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "express": "^4.17.3",
-    "express-handlebars": "^6.0.3",
+    "express-handlebars": "^6.0.3"
+    
+  },
+  "devDependencies": {
     "nodemon": "^2.0.15"
   },
   "name": "geo-goatr",
@@ -22,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/piwakawaka-2022/geo-goatr/issues"
   },
-  "homepage": "https://github.com/piwakawaka-2022/geo-goatr#readme"
+  "homepage": "https://github.com/piwakawaka-2022/geo-goatr#readme",
+
+  "engines": {
+    "node": "16.x"
+  }
 }
+

@@ -1,49 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body {
-  display: flex;
-  align-items: center;
-  justify-content: flex-center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-  font-family:  'Roboto', sans-serif;
+
+/*---------phones----------*/
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 1199px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family:  'Roboto', sans-serif;
+  }
+
+  .header {
+    
+    background: rgb(0, 0, 0);
+    width: 100%;
+    color: whitesmoke;
+    /* font-family:  'Roboto', sans-serif; */
+    font-size: 1.25em;
+    text-align: center;
+    /* list-style-type: none; */
+  }
+
+  img {
+    max-width: 80vw;
+  }
+
+  .guess {
+    font-size: larger;
+    margin: 20px 20px 20px 20px;
+    min-width: 50vw;
+  }
+
+  .button{
+    margin: 10px 10px 30px 10px;
+    font-size: 1em;
+  }
+
+  .play {
+    font-size: x-large;
+  }
+
+  .homegoat {
+    margin: 50px 10px 10px 10px;
+  }
+
+  h6 {
+    font-size: larger;
+    margin: 20px 20px 10px 20px;
+  }
+  form > select, input {
+    font-size: 1em;
+  }
+
+  .footer {
+    position: absolute;
+    top: 95%
+  }
 }
 
-.header {
+@media screen
+  and (min-device-width:1200px) {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: flex-center;
+      flex-direction: column;
+      height: 100vh;
+      width: 100vw;
+      text-align: center;
+      font-family:  'Roboto', sans-serif;
+    }
   
-  background: rgb(0, 0, 0);
-  width: 100%;
-  color: whitesmoke;
-  font-family:  'Roboto', sans-serif;
-  font-size: 1vw;
-  text-align: center;
-  list-style-type: none;
-}
-
-img {
-  max-width: 600px;
-}
-
-.guess {
-  font-size: larger;
-  margin: 20px 20px 20px 20px;
-}
-
-.NextButton{
-  margin: 10px 10px 30px 10px;
-}
-
-.play {
-  font-size: x-large;
-}
-
-.homegoat {
-  margin: 50px 10px 10px 10px;
-}
-
-h6 {
-  font-size: larger;
-  margin: 20px 20px 10px 20px;
-}
+    .header {
+      
+      background: rgb(0, 0, 0);
+      width: 100%;
+      color: whitesmoke;
+      font-family:  'Roboto', sans-serif;
+      font-size: 1vw;
+      text-align: center;
+      list-style-type: none;
+    }
+  
+    img {
+      max-width: 600px;
+    }
+  
+    .guess {
+      font-size: larger;
+      margin: 20px 20px 20px 20px;
+    }
+  
+    .NextButton{
+      margin: 10px 10px 30px 10px;
+    }
+  
+    .play {
+      font-size: x-large;
+    }
+  
+    .homegoat {
+      margin: 50px 10px 10px 10px;
+    }
+  
+    h6 {
+      font-size: larger;
+      margin: 20px 20px 10px 20px;
+    }
+  }
