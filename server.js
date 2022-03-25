@@ -29,7 +29,7 @@ server.get('/', (req, res) => {
 })
 
 server.get('/goat/6', (req, res) => {
-  res.send('baaaaaaah, game over')
+  res.render('game-over')
 })
 
 server.get('/goat/:id', (req, res) => {
