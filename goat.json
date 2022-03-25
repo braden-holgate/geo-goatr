@@ -4,31 +4,36 @@
     "id": 1,
     "name": "Kinder",
     "location": "North America",
-    "image": "/images/Kinder_Goat.jpg"
+    "image": "/images/Kinder_Goat.jpg",
+    "nextID": 2
     },
     {
     "id": 2,
     "name": "Alpine",
     "location": "Europe",
-    "image": "/images/alpine-goat.jpg"
+    "image": "/images/alpine-goat.jpg",
+    "nextID": 3
     },
     {
     "id": 3,
     "name": "Cashmere",
     "location": "Australia",
-    "image": "/images/Cashmere.png"
+    "image": "/images/Cashmere.png",
+    "nextID": 4
     },
     {
     "id": 4,
     "name": "Boer",
     "location": "Africa",
-    "image": "/images/Boer.jpg"
+    "image": "/images/Boer.jpg",
+    "nextID": 5
     },
     {
     "id": 5,
     "name": "Jamnapari",
     "location": "Asia",
-    "image": "/images/Jamnapari.jpg"
+    "image": "/images/Jamnapari.jpg",
+    "nextID": 6
     }  
   ]
 }

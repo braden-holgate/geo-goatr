@@ -28,14 +28,18 @@ server.get('/', (req, res) => {
   res.render('home')
 })
 
+server.get('/goat/6', (req, res) => {
+  res.send('baaaaaaah, game over')
+})
+
 server.get('/goat/:id', (req, res) => {
   const id = Number(req.params.id)
   fs.readFile('./goat.json', 'utf-8', (err, data) => {
     if (err) return res.status(500).send(err.message)
     const parsedData = JSON.parse(data)
     const theGoat = parsedData.goats.find((goat) => goat.id === id)
-    theGoat.nextID = id + 1
-    console.log(theGoat)
+    // theGoat.nextID = id + 1
+    // console.log(theGoat)
     //add netx goat id to obj, then go from there
     res.render('game', theGoat)
   })
