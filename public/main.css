@@ -61,10 +61,6 @@
     font-size: 1em;
   }
 
-  .footer {
-    position: absolute;
-    top: 95%
-  }
 }
 
 @media screen
