@@ -40,7 +40,7 @@
     min-width: 50vw;
   }
 
-  .button{
+  .button {
     margin: 10px 10px 30px 10px;
     font-size: 1em;
   }
@@ -100,7 +100,7 @@
       margin: 20px 20px 20px 20px;
     }
   
-    .NextButton{
+    .button{
       margin: 10px 10px 30px 10px;
     }
   
