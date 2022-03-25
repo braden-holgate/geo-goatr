@@ -26,6 +26,9 @@ server.get('/goat/:id', (req, res) => {
     if (err) return res.status(500).send(err.message)
     const parsedData = JSON.parse(data)
     const theGoat = parsedData.goats.find((goat) => goat.id === id)
+    theGoat.nextID = id + 1
+    console.log(theGoat)
+    //add netx goat id to obj, then go from there
     res.render('game', theGoat)
   })
 })
