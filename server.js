@@ -15,9 +15,9 @@ server.engine('hbs', hbs.engine({ extname: 'hbs' }))
 server.set('view engine', 'hbs')
 
 // routers
-
+// homepage
 server.get('/', (req, res) => {
-  res.render('<h1>Dont look now goats are getting dressed</h1>')
+  res.render('home')
 })
 
 server.get('/goat/:id', (req, res) => {
